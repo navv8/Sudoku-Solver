@@ -1,0 +1,12 @@
+#Python Cache
+__pycache__/
+*.__pyc
+
+#Virtual Enviornment
+venv/
+
+#VSCode
+.vscode/
+
+#OS Files
+.DS_Store
