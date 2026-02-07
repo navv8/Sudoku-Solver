@@ -1,6 +1,6 @@
 # Sudoku Solver using PYTHON
 
-A Python based sudoku solver that uses *backtracking algorithm* to solvr any valid 9x9 sudoku puzzle
+A Python based sudoku solver that uses *backtracking algorithm* to solve any valid 9x9 sudoku puzzle
 
 ---
 
@@ -13,14 +13,24 @@ The solver first finds the empty cell in the given unsolved sudoku and tries num
 Then it uses backtracks when a dead end is reached
 
 ---
+
 ## Features
 
 - Solves 9x9 sudoku
+- Accepts input using a GUI using tkinter module
+- Displays result using the same GUI
 - Uses recursion with backtracking
 - Clean and readable implementation
 - Easy to understand
 
 ---
+
+## Version History
+- **v1.0**- Basic program with just the logic flow which used a pre-initialised sudoku puzzle to demonstrate
+- **v2.0**- Added user inputting system for puzzles. Added GUI for inputting unsolved puzzle and showing the solved one.
+
+---
+
 ## How to run
 
 Clone the repository:
